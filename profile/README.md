@@ -10,14 +10,14 @@ Two repositories are now public:
 
 * iotdash
 
-** use this terraform to create a new storage account (for terraform state), network, and virtual machine (linux) on Azure
+    * use this terraform to create a new storage account (for terraform state), network, and virtual machine (linux) on Azure
 
 * dashstack
 
-** forked and pruned from MCCI *docker-iot-dashboard*
-** creates an open-source docker-compose stack
+    * forked and pruned from MCCI *docker-iot-dashboard*
+    * creates an open-source docker-compose stack
 
-*** nginx - a web server
-*** mosquitto - an MQTT broker
-*** node-red - flow-based programming (low-code) for IoT triggers and actions
-*** influxdb - time-series data storage
+        * nginx - a web server
+        * mosquitto - an MQTT broker
+        * node-red - flow-based programming (low-code) for IoT triggers and actions
+        * influxdb - time-series data storage
