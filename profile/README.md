@@ -4,7 +4,36 @@ The purpose of this GitHub organization is to _SHARE_ IoT Know-How (KH) and How-
 
 Sheer means a lot of things. Look it up.
 
-## Init Repos
+## Building an IoT Host (VM) on Azure
+
+Start with a VM
+
+- [AzureVmDeploy](https://github.com/sheeriot/AzureVmDeploy) - if using a Public or Paid-for Repository, supports Environments
+- [DevHostAzure](https://github.com/sheeriot/DevHostAzure) - if using a free Private repository, no Environments (Secrets.Variables are Global)
+
+Building a VM on Azure using three Terraform Apply tasks as run by GitHub Actions.
+
+Prepare by creating an Azure Subscription, AD Service Principal, assign permissions as needed.
+
+Setup the GitHub Environmental variables and secrets.
+
+1. Build Storage for Terraform State (aka tfstate) retention
+1. Build Azure Network
+1. Build VM
+
+Be sure you can login with SSH.
+
+## Add Nginx for Web Hosting
+
+Using this Repo:
+
+- https://github.com/sheeriot/WebHostNginx
+
+Currently needs Certbot managed manually.
+
+# Archive....
+
+This is where it began but these repos are now obsolete
 
 Two repositories are now public:
 
