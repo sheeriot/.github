@@ -31,6 +31,16 @@ Using this Repo:
 
 Currently needs Certbot managed manually.
 
+## Surveyor - Now Public
+
+The RF Field Surveyor (aka Surveyor) is a Django (python) web application that can be used to query an InfluxDB and provide LoRaWAN peformance data and visuals.
+
+* [RF Field Surveyor - Public repo][(https://github.com/sheeriot/surveyor)
+
+Here, a visual:
+
+![RF Field Surveyor - Software Topology](https://github.com/sheeriot/surveyor/blob/trunk/README/surveyor/docs/diagrams/structurizr-1-RFFieldSurveyor.png)
+
 # Archive....
 
 This is where it began but these repos are now obsolete
