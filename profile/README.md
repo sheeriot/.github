@@ -4,24 +4,16 @@ The purpose of this GitHub organization is to _SHARE_ IoT Know-How (KH) and How-
 
 Sheer means a lot of things. Look it up.
 
-## Building an IoT Host (VM) on Azure
+## Building an IoT Host (VM) on Azure or AWS
 
 Start with a VM
 
-- [AzureVmDeploy](https://github.com/sheeriot/AzureVmDeploy) - if using a Public or Paid-for Repository, supports Environments
-- [DevHostAzure](https://github.com/sheeriot/DevHostAzure) - if using a free Private repository, no Environments (Secrets.Variables are Global)
-
-Building a VM on Azure using three Terraform Apply tasks as run by GitHub Actions.
-
-Prepare by creating an Azure Subscription, AD Service Principal, assign permissions as needed.
-
-Setup the GitHub Environmental variables and secrets.
+- [Cloud VM](https://github.com/sheeriot/cloudvm) - a public repository that can be used to create environments and VMs on AWS and Azure.
 
 1. Build Storage for Terraform State (aka tfstate) retention
-1. Build Azure Network
+1. Build Azure Network or AWS VPC
 1. Build VM
-
-Be sure you can login with SSH.
+1. Setup .ssh/config and connect
 
 ## Add Nginx for Web Hosting
 
